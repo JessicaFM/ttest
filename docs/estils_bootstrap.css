@@ -33,13 +33,13 @@
   background-repeat: no-repeat;
 }
 .offer-1 {
-  background-image: url("../images/offers/board_games_2.jpg");
+  background-image: url("images/offers/board_games_2.jpg");
 }
 .offer-2 {
-  background-image: url("../images/offers/papereria.jpg");
+  background-image: url("images/offers/papereria.jpg");
 }
 .offer-3 {
-  background-image: url("../images/offers/sneaker.jpg");
+  background-image: url("images/offers/sneaker.jpg");
 }
 #search-list {
   list-style-type: none;
