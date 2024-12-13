@@ -352,7 +352,7 @@ input[type=checkbox]:checked + label::after {
   display: block;
   width: 16px;
   height: 16px;
-  background: url("../images/form/icon-select.svg") no-repeat center center;
+  background: url("images/form/icon-select.svg") no-repeat center center;
   pointer-events: none;
 }
 
@@ -606,7 +606,7 @@ header nav {
   right: 0;
   height: 100%;
   width: 80px;
-  background-image: url("../images/icon-download.svg");
+  background-image: url("images/icon-download.svg");
   background-position: center center;
   background-repeat: no-repeat;
   display: none;
