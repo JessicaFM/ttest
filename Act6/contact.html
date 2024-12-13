@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../guia_estils/guia_estils.css">
+    <link rel="stylesheet" href="estils_bootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Pàgina de Jessica</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="index_bootstrap.html">
+          <img src="../images/logo-no-background.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarNav" 
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse header-content" id="navbarNav">
+          <div class="navbar-nav">
+            <form class="d-flex" role="search" action="search.html">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-primary btn-sm" type="submit">Search</button>
+            </form>
+            <button type="button" class="login">
+              <a href="register.html">
+                <img src="../images/icons/user.png" />
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main id="contact">
+      <div class="container">
+        <h2 class="text-secondary-border">Formulari de contacte</h2>
+        <form id="contact-form">
+          <div class="row">
+            <div class="col-6">
+              <label for="name">Nom:</label>
+              <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            <div class="col-6">
+              <label for="email">Cognoms:</label>
+              <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <label for="phone">Telèfon:</label>
+              <input type="text" id="phone" name="phone" class="form-control">
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <label for="mobile">Mobil:</label>
+              <input type="text" id="mobile" name="mobile" class="form-control">
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <label for="address">Email:</label>
+              <input type="text" id="email" name="email" class="form-control">         
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <label for="message">Missatge:</label>
+              <textarea id="message" name="message" class="form-control" rows="10" required></textarea>
+            </div>
+          </div>
+          <div class="w-100 form-check">
+            <input type="radio" id="auth" name="auth" class="form-check-input" value="auth">
+            <label class="form-check-label" for="auth">He llegit i acepto les condicions de l'empresa</label>
+          </div>
+          <div class="w-100 pt-4 pb-5">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer id="footer">
+      <p>© 2024 Jessica</p>
+      <div class="footer-content">
+        <a href="contact.html">
+          Contacte
+        </a>
+      </div>
+      <div class="footer-content">
+        <a href="#">
+          <img src="../images/icons/twitter.png" alt="Twitter">
+        </a>
+        <a href="#">
+          <img src="../images/icons/instagram.png" alt="Instagram">
+        </a>
+    </footer>
+  </body>
+</html>

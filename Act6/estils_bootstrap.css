@@ -1,0 +1,92 @@
+.btn-sm {
+  padding: 0.25rem 0.5rem;;
+}
+
+.carousel-image {
+  background-color: #FCF2E6;
+}
+.carousel-image:nth-child(2n) {
+  background-color: #F2E6FC;
+}
+
+#home section:first-child {
+  margin-top: 0;
+}
+#offers .content {
+  justify-content: start;
+  gap: 0;
+}
+#offers .content .box-small {
+  flex: none;
+  justify-content: start;
+}
+.box-small-wrapper,
+.box-text  {
+  background-color: rgba(255, 255, 255, .5);
+  padding: 10px 20px;
+}
+.offer-image {
+  width: 100%;
+  height: 150px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.offer-1 {
+  background-image: url("../images/offers/board_games_2.jpg");
+}
+.offer-2 {
+  background-image: url("../images/offers/papereria.jpg");
+}
+.offer-3 {
+  background-image: url("../images/offers/sneaker.jpg");
+}
+#search-list {
+  list-style-type: none;
+  padding: 10px 0;
+  margin: 0;
+}
+
+#search-list li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+#search-list li a:hover:not(.header) {
+  background-color: #eee;
+}
+.search-item {
+  display: block;
+}
+.search-list-text {
+  font-size: 10px;
+  width: 100%;
+}
+
+.navbar-nav {
+  padding: 5px;
+}
+.header-content {
+  width: auto;
+}
+.navbar-collapse {
+  flex-grow: inherit;
+}
+@media only screen and (max-width: 990px) {
+  .header-content .navbar-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+      flex-direction: row;
+  }
+  .header-content {
+    width: 100%;
+    display: block;
+  }
+}

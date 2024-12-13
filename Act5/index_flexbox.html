@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="estils.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <title>Pàgina de Jessica</title>
+  </head>
+  <body>
+    <nav>
+        <div class="logo">
+          <img src="../images/logo-no-background.png" alt="logo">
+        </div>
+        <div class="header-content">
+          <input type="text" name="search" id="search" placeholder="Cerca">
+          <button type="button" class="login">
+            <a href="#">
+              <img src="../images/icons/user.png" />
+            </a>
+          </button>
+        </div>
+    </nav>
+    <main>
+      <section id="carousel">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="../images/magazine1.jpg" alt="Imatge 1">
+            </div>
+            <div class="swiper-slide">
+              <img src="../images/magazine2.jpeg" alt="Imatge 1">
+            </div>
+            <div class="swiper-slide">
+              <img src="../images/lego.jpeg" alt="Imatge 1">
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+        
+      </section>
+      <section id="offers">
+        <h2>Ofertes</h2>
+        <div class="content">
+          <article class="box-small offer">
+            <p>Jocs de taula</p>
+            <img src="../images/offers/board_games_2.jpg" alt="Oferta 1">
+          </article>
+          <article class="box-small offer">
+            <p>Papereria</p>
+            <img src="../images/offers/papereria.jpg" alt="Oferta 2">
+          </article>
+          <article class="box-small offer">
+            <p>Col·lecció roba</p>
+            <img src="../images/offers/sneaker.jpg" alt="Oferta 3">
+          </article>
+        </div>
+      </section>
+      <section id="promos">
+        <h2>Promocions</h2>
+        <div class="content">
+          <article class="box-big">
+            <img src="../images/promos/libros.jpg" alt="Promoció 1">
+            <p>
+              Consulta l'agenda<br/>
+              de firmes de llibres<br/>
+              per el mes de novembre
+            </p>
+            <img src="../images/promos/libros.jpg" alt="Promoció 1">
+          </article>
+          <article class="box-big">
+            <img src="../images/promos/cine.jpg" alt="Promoció 2">
+            <div class="big-box-content">
+              <p>
+                Vine al Cine!<br/>
+                Descompte del 15%
+              </p>
+              <p>
+                Amb el carnet de soci obtindràs un 15% de Descompte
+                directe en la compra de les teves entrades de cinema
+              </p>
+            <div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <p>© 2024 Jessica</p>
+      <div class="footer-content">
+        <a href="#">
+          Contacte
+        </a>
+      </div>
+      <div class="footer-content">
+        <a href="#">
+          <img src="../images/icons/twitter.png" alt="Twitter">
+        </a>
+        <a href="#">
+          <img src="../images/icons/instagram.png" alt="Instagram">
+        </a>
+    </footer>
+  </body>
+</html>
+
+<script>
+  var swiper = new Swiper('.swiper', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    loop: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
+</script>
